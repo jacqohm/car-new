@@ -7,4 +7,8 @@ var Car = function (color, convertible) {
 // this.acelerate = acelerate
 // this.decelerate = decelerate
 
+Car.prototype.decelerate = function (num) {
+  this.speed -= num
+}
+
 module.exports = Car
