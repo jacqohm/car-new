@@ -13,4 +13,8 @@ Car.prototype.setColor = function () {
   this.color += newColor
 };
 
+Car.prototype.decelerate = function (num) {
+  this.speed -= num
+}
+
 module.exports = Car
